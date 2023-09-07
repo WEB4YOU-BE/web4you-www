@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default async function page() {
-    return <main className={"w-full h-[100svh] flex flex-col justify-between gap-4 p-4"}>
+    return <main className={"w-full h-[100svh] flex flex-col justify-between gap-4 p-4 select-auto selection:bg-black selection:text-white"}>
         <span className={"text-lg md:text-xl font-semibold"}>WEB4YOU</span>
         <span lang={"en-US"} className={"text-7xl md:text-9xl text-center font-extrabold"}>The new site is coming soon!</span>
         <span className={"font-light"}>Onder constructie bij <Link href={"mailto:info@web-4-you.be"} target={"_blank"}
